@@ -1,0 +1,16 @@
+default:
+ extensions:
+  Behat\MinkExtension\Extension:
+   base_url: http://en.wikipedia.org
+   #browser_name: googlechrome
+   #javascript_session:  'selenium'
+   goutte: ~
+   selenium2: ~
+  #Paths:
+      #bootstrap: /home/sony/bddtest/features/bootstrap
+      #features: /home/sony/bddtest/features
+      
+paths: 
+    bootstrap: "%behat.paths.base%/features/bootstrap"
+    features:  "%behat.paths.base%/features"
+    
