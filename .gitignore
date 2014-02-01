@@ -1,4 +1,4 @@
 behat.yml~
 composer.lock
 nbproject/
-.*~
+*.*~
